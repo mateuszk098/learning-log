@@ -9,7 +9,7 @@ urlpatterns = [
     # Main website.
     path("", views.index, name="index"),
     # Display all topis.
-    path("topis/", views.topics, name="topics"),
+    path("topic/", views.topics, name="topics"),
     # Detail view of the individual topic.
     path("topic/(<int:topic_id>)", views.topic, name="topic"),
     # Site for adding a new topic.
