@@ -1,3 +1,3 @@
-Before you push project to Heroku, set you secret key.
+Before you push project to Heroku, set your secret key.
 
 >>> heroku config:set SECRET_KEY='Your secret key'
